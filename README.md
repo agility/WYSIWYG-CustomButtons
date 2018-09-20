@@ -1,7 +1,5 @@
 # HTML Field Custom Buttons
-This repository showcases how you can add and build custom buttons in AgilityCMS for use in the WYSIWYG Editor. These implementations interface with the TinyMCE javscript sdk to register a button and also provide a reference to TinyMCE functions and objects such as the "editor" instance for further customization.
-
-![Sample](screenshots/custom-buttons-example-sample-afterClick.png)
+This repository showcases how you can add and build custom buttons in [Agility](https://agilitycms.com) for use in the WYSIWYG Editor. These implementations interface with the [TinyMCE](https://www.tiny.cloud/) javscript sdk to register a button and also provide a reference to [TinyMCE](https://www.tiny.cloud/) functions and objects such as the "editor" instance for further customization.
 
 ## Example
 **Code (js):**
@@ -56,22 +54,17 @@ var FirstCustomButton = function () {
 
 ContentManager.Global.CustomRichTextAreaButtons.push(new FirstCustomButton());
 ```
-
-**Button on HTML Field:**
-TODO: Image
-
-**Result of Clicking Button:**
-TODO: Image
+![Sample](screenshots/custom-buttons-example-sample-afterClick.png)
 
 ## How it Works
-Similar to Custom Fields [TODO:Link], you need to implement a customization JS script file. This file will register your custom buttons and the function to be executed upon click. Your JS script file is a single file that can be stored externally and imported over a URL, or it can be stored within Inline Code in Agility.
+Similar to [Custom Fields](https://github.com/AgilityInc/CustomFields), you need to implement a customization JS script file. This file will register your custom buttons and the function to be executed upon click. Your JS script file is a single file that can be stored externally and imported over a URL, or it can be stored within Inline Code in Agility.
 
 ## Setup Instructions
 
 ### Using Inline Code
 1. Create a new JS Inline Code file by going to **Agility Content Manager > Settings > Customization/Development > Inline Code**.
 
-2. Copy the [TODO:link] sample.js file to get started as a boilerplate and paste that into your JS **Inline Code** file.
+2. Copy the [Sample Boilerplate](sample-boilerplate.js) file to get started as a boilerplate and paste that into your JS **Inline Code** file.
 
 3.Go to **Settings > Customization/Development > Content Editor** and click on the Advanced Tab.
 
@@ -88,7 +81,7 @@ Similar to Custom Fields [TODO:Link], you need to implement a customization JS s
 8. Now that you have the base working, modify the JS file to support your needs.
 
 ### Using Custom Script URL
-1. Create a new JS file and copy the [TODO:link] sample.js file to get started as a boilerplate and paste that into your JS file.
+1. Create a new JS file and copy the [Sample Boilerplate](sample-boilerplate.js) file to get started as a boilerplate and paste that into your JS file.
 
 2. Upload your JS file to a location that can be accessed across-domains. You can upload this to **Agility Media & Documents**, or any other hosted file service.
 
