@@ -1,0 +1,48 @@
+
+<script id="widen-flyout-editor" type="text/html">
+
+	<style>
+
+		.widen-flyout-editor .widen-image-field .widen-panel-body-content {
+			position: relative;
+			margin: 0!important;
+			height: 100%;
+		}
+
+		.widen-flyout-editor .widen-iframe-wrapper,
+		.widen-iframe-wrapper iframe {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			width: 100%;
+		}
+    
+    .widen-panel-body-content {
+			margin: 0!important;
+		}
+
+	</style>
+
+    <div class="agility-right-panel panel panel-default extra-extra-wide-panel widen-flyout-editor" data-bind="agilityRightPanel:options">
+        <div class="panel-heading">
+            <button aria-hidden="true" class="close" type="button">&times;</button>
+            <span>Widen Asset Selector</span>
+        </div>
+
+        <div class="panel-body full-height">
+            <div class="nano-content panel-body-content widen-panel-body-content">
+
+                <div data-bind="visible: item().loading, agilityLoadingItem:null"></div>
+
+
+                <!-- ko if: item().iFrameUrl() != null -->
+                <div class="widen-iframe-wrapper">
+                    <iframe style="width: 100%; height: 100%; border: none;" data-bind="attr: { src: item().iFrameUrl }, widenIFrameFromEditor" />
+                </div>
+                <!-- /ko -->
+
+
+            </div>
+        </div>
+    </div>
+</script>
