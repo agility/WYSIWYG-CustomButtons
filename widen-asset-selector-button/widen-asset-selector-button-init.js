@@ -2,41 +2,6 @@
 * Creates a new Agility Custom Rich Text Area Buttion.
 * @class
 */
-var FirstCustomButton = function () {
-
-    /**
-    * The type definition of this Agility Custom Rich Text Area Button.
-    * @var {object} self
-    */
-    var self = this;
-
-    /**
-    * The internal reference name of the Custom Rich Text Area.
-    * Must not contain any special characters and must be unique.
-    * @member {string}
-    */
-    self.ReferenceName = "FirstCustomButtonName";
-
-    /**
-     * TinyMCE editor instance that will be initialized when it is rendered
-     */
-    self.Editor = null;
-
-    self.Options = {
-        text: 'My new button live',
-        icon: false,
-        onclick: function () {
-            self.Editor.insertContent('&nbsp;<strong>It\'s my button! From live</strong>&nbsp;');
-        }
-    };
-};
-
-ContentManager.Global.CustomRichTextAreaButtons.push(new FirstCustomButton());
-
-/**
-* Creates a new Agility Custom Rich Text Area Buttion.
-* @class
-*/
 var WidenAssetButton = function () {
 
     /**
