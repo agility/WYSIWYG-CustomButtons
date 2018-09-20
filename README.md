@@ -66,7 +66,7 @@ Similar to [Custom Fields](https://github.com/AgilityInc/CustomFields), you need
 
 2. Copy the [Sample Boilerplate](sample-boilerplate.js) file to get started as a boilerplate and paste that into your JS **Inline Code** file.
 
-3.Go to **Settings > Customization/Development > Content Editor** and click on the Advanced Tab.
+3. Go to **Settings > Customization/Development > Content Editor** and click on the Advanced Tab.
 
 ![Sample](screenshots/custom-buttons-example-sample-editor.png)
 
@@ -85,7 +85,7 @@ Similar to [Custom Fields](https://github.com/AgilityInc/CustomFields), you need
 
 2. Upload your JS file to a location that can be accessed across-domains. You can upload this to **Agility Media & Documents**, or any other hosted file service.
 
-3.Go to **Settings > Customization/Development > Content Editor** and click on the Advanced Tab.
+3. Go to **Settings > Customization/Development > Content Editor** and click on the Advanced Tab.
 
 ![Sample](screenshots/custom-buttons-example-sample-editor-2.png)
 
