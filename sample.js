@@ -41,7 +41,7 @@ var FirstCustomButton = function () {
         text: 'My new button',
         icon: false,
         onclick: function () {
-            self.Editor.insertContent('&nbsp;<strong>It\'s my button! From dev</strong>&nbsp;');
+            self.Editor.insertContent('&nbsp;<strong>It\'s my button!</strong>&nbsp;');
         }
     };
 };
