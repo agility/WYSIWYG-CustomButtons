@@ -1,7 +1,7 @@
 # HTML Field Custom Buttons
 This repository showcases how you can add and build custom buttons in AgilityCMS for use in the WYSIWYG Editor. These implementations interface with the TinyMCE javscript sdk to register a button and also provide a reference to TinyMCE functions and objects such as the "editor" instance for further customization.
 
-TODO: Image
+![Sample](screenshots/custom-buttons-example-sample-afterClick.png)
 
 ## Example
 **Code (js):**
@@ -74,7 +74,8 @@ Similar to Custom Fields [TODO:Link], you need to implement a customization JS s
 2. Copy the [TODO:link] sample.js file to get started as a boilerplate and paste that into your JS **Inline Code** file.
 
 3.Go to **Settings > Customization/Development > Content Editor** and click on the Advanced Tab.
-[TODO: Image]
+
+![Sample](screenshots/custom-buttons-example-sample-editor.png)
 
 4. Select **Inline Code** for the *Custom Rich Text Area Buttons*.
 
@@ -92,7 +93,8 @@ Similar to Custom Fields [TODO:Link], you need to implement a customization JS s
 2. Upload your JS file to a location that can be accessed across-domains. You can upload this to **Agility Media & Documents**, or any other hosted file service.
 
 3.Go to **Settings > Customization/Development > Content Editor** and click on the Advanced Tab.
-[TODO: Image]
+
+![Sample](screenshots/custom-buttons-example-sample-editor-2.png)
 
 4. Select **Custom Script URL** for the *Custom Rich Text Area Buttons*.
 
