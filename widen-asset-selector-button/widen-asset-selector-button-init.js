@@ -17,11 +17,6 @@ var WidenAssetButton = function () {
     */
     self.ReferenceName = "WidenAssetButton";
 
-    /**
-     * TinyMCE editor instance that will be initialized when it is rendered
-     */
-    self.Editor = null;
-
     self.Custom = new function() {
         var c = this;
         c.accessToken = "{{access token goes here}}"; //i.e. cloud/abcdefghifklmnopqrstuvwxyz
@@ -105,4 +100,4 @@ ko.bindingHandlers.widenIFrameFromEditor = {
     }
 };
 
-ContentManager.Global.CustomRichTextAreaButtons.push(new WidenAssetButton());
+ContentManager.Global.CustomRichTextAreaButtons.push(WidenAssetButton);
