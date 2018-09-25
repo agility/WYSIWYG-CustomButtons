@@ -1,4 +1,4 @@
-# HTML Field Custom Buttons
+# WYSIWYG Custom Buttons
 This repository showcases how you can add and build custom buttons in [Agility](https://agilitycms.com) for use in the WYSIWYG Editor. These implementations interface with the [TinyMCE](https://www.tiny.cloud/) javscript sdk to register a button and also provide a reference to [TinyMCE](https://www.tiny.cloud/) functions and objects such as the "Editor" instance for further customization.
 
 ## Example
