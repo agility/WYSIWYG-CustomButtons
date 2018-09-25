@@ -27,11 +27,6 @@ var FirstCustomButton = function () {
     self.ReferenceName = "FirstCustomButtonName";
 
     /**
-     * TinyMCE editor instance that will be initialized by CMS when the editor is rendered.
-     */
-    self.Editor = null;
-
-    /**
      * Options of the custom tinymce editor button
      * @member {object}
      * Button configuration properties:
@@ -52,7 +47,7 @@ var FirstCustomButton = function () {
     };
 };
 
-ContentManager.Global.CustomRichTextAreaButtons.push(new FirstCustomButton());
+ContentManager.Global.CustomRichTextAreaButtons.push(FirstCustomButton);
 ```
 ![Sample](screenshots/custom-buttons-example-sample-afterClick.png)
 
